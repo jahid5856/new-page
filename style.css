@@ -2,13 +2,14 @@
    max-width: 100%;
    margin: auto;
 } */
-.nav-hero{
+.nav-hero {
     background-color: #141623;
     color: white;
     padding: 70px;
     margin: 0%;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -18,69 +19,96 @@ nav{
     justify-content: space-between;
 } */
 
-.menu ul{
+.menu ul {
     display: flex;
     justify-content: space-between;
 }
 
-.menu ul li{
+.menu ul li {
     list-style: none;
     text-decoration: none;
     margin-right: 42px;
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
 }
-.hero text h2{
-    font-size: 86px ;
-    font-weight 700px; ;
+
+.hero-text h2 {
+    font-size: 70px;
+    padding: 10px 30px;
 }
-.hero text p{
-    font-size:30px ;
-    font-weight: 400;
-    padding-bottom: 15px;
+
+.hero-text p {
+    font-size: 30px;
+    margin-left: 27px;
+    padding-bottom: 10px;
 }
-.hero text a{
+
+.hero-texts a {
     background-color: green;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 26px 67px;
-    border-radius: 16px;
+    padding: 10px 30px;
+    border-radius: 8px;
     font-size: 16px;
-     
-}
-.hero-image img{
-     width: 450px;
-     height: 450px;
 }
 
-.service h2{
+
+.hero-text a {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 4%;
+}
+
+.hero-image img {
+    width: 450px;
+    height: 450px;
+}
+
+.service h2 {
     text-align: center;
     font-size: 50px;
     padding-bottom: 20px;
 }
 
-.boxes{
+.heros-image img{
+    height: 600px;
+}
+
+.boxes {
     display: flex;
     justify-content: space-around;
 }
-.boxes .box{
-    width: 350px;
-    height: 350px;
+
+.box {
+    width: 300px;
+    height: 280px;
     text-align: center;
-    background-color: #f5f3f3;
+    background: #e4e4e4;
+    padding: 70px 50px;
+    box-shadow:
 }
- 
-.sot h2{
-    font-size: 30px ;
-    font-weight 70px; ;
-    
+
+
+.sot h2 {
+     
+    margin-top: 15%;
+    font-size: 50px;
+
 }
-.sot p{
-    font: size 15px;
+
+.sot p {
+    font: size: 15px;
     font-weight: 5%;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
- 
+
+.service p {
+    text-align: center;
+}
