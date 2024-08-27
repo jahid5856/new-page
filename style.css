@@ -1,12 +1,26 @@
-/* body{
-   max-width: 100%;
-   margin: auto;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    max-width: 1200%;
+    margin: auto;
+}
+
+.Logo img{
+    margin-left: 30%;
+    width: 80px;
+    margin-top: 10%;
+}
+
 .nav-hero {
     background-color: #141623;
     color: white;
-    padding: 70px;
+    padding: 80px;
     margin: 0%;
+
 }
 
 nav {
@@ -14,10 +28,12 @@ nav {
     justify-content: space-between;
 }
 
-/* section{
-    display: flex;
-    justify-content: space-between;
-} */
+
+
+.part {
+    margin: 10px 20px;
+}
+
 
 .menu ul {
     display: flex;
@@ -38,6 +54,7 @@ nav {
 .hero-text h2 {
     font-size: 70px;
     padding: 10px 30px;
+    margin-top: 18%;
 }
 
 .hero-text p {
@@ -46,18 +63,24 @@ nav {
     padding-bottom: 10px;
 }
 
-.hero-texts a {
-    background-color: green;
+.hero-texts a{
+    background-color: #00966B;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 8px;
     font-size: 16px;
+     
+}
+
+.hero-image img {
+    height: 100%;
+    width: 110%;
 }
 
 
 .hero-text a {
-    background-color: green;
+    background-color: #00966B;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 30px;
@@ -66,38 +89,38 @@ nav {
     margin-left: 4%;
 }
 
-.hero-image img {
-    width: 450px;
-    height: 450px;
-}
+
 
 .service h2 {
     text-align: center;
     font-size: 50px;
-    padding-bottom: 20px;
+    margin-top: 10%;
 }
 
-.heros-image img{
-    height: 600px;
+.service p {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
 }
 
 .boxes {
     display: flex;
     justify-content: space-around;
+    margin-top: 6%;
 }
 
 .box {
-    width: 300px;
-    height: 280px;
+    width: 250px;
+    height: 200px;
     text-align: center;
     background: #e4e4e4;
     padding: 70px 50px;
-    box-shadow:
+    box-shadow: 10px 10px 10px 10px;
 }
 
 
 .sot h2 {
-     
+
     margin-top: 15%;
     font-size: 50px;
 
@@ -109,6 +132,146 @@ nav {
     padding-bottom: 10px;
 }
 
-.service p {
+.sot a {
+    text-decoration: none;
+    background-color: rgb(2, 47, 181);
+    padding: 10px 11px;
+    color: #e4e4e4;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* mobile part  */
+
+.all {
+    display: flex;
+}
+
+.all img {
+    height: 20%;
+    width: 30%;
+    margin-left: 10%;
+
+}
+
+.bat {
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+.ball {
+    margin-top: 10%;
+
+}
+
+.ball h2 {
+    font-size: 300%;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.ball p {
+    font-size: 90%;
+    margin-bottom: 3%;
+    width: 60%;
+
+}
+
+.ball a {
+    background-color: #00966B;
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+/* 2nd */
+
+.phone {
+    display: flex;
+    margin-top: 5%;
+}
+
+.home {
+    margin-top: 10%;
+}
+
+
+.home h2 {
+    font-size: 300%;
+    width: 70%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+
+.home p {
+    font-size: 90%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: 45%;
+}
+
+.home a {
+    background-color: #00966B;
+    color: #e4e4e4;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 20%;
+
+}
+
+.phone img {
+    height: 20%;
+    width: 29%;
+    margin-right: 10%;
+}
+
+
+/* u*/
+
+.under {
+    background-color: #141623;
+    margin: 50px 50px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.under h2 {
+    color: #e4e4e4;
     text-align: center;
+    font-size: 40px;
+    padding: 50px 0px;
+}
+
+
+.under p {
+    color: aliceblue;
+    font-size: 90%;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.play-button {
+    display: flex;
+     
+}
+
+.buttons img {
+    margin-left: 260%;
+    width: 60%;
+}
+
+.charset img {
+    width: 60%;
+    margin-left: 230%;
 }
