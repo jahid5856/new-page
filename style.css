@@ -9,7 +9,7 @@ body {
     margin: auto;
 }
 
-.Logo img{
+.Logo img {
     margin-left: 30%;
     width: 80px;
     margin-top: 10%;
@@ -63,14 +63,14 @@ nav {
     padding-bottom: 10px;
 }
 
-.hero-texts a{
+.hero-texts a {
     background-color: #00966B;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 8px;
     font-size: 16px;
-     
+
 }
 
 .hero-image img {
@@ -263,7 +263,7 @@ nav {
 
 .play-button {
     display: flex;
-     
+
 }
 
 .buttons img {
@@ -274,4 +274,28 @@ nav {
 .charset img {
     width: 60%;
     margin-left: 230%;
+}
+
+
+/* footer part */
+
+.outing {
+    display: flex;
+     
+}
+
+.prothom ul li {
+    text-decoration: none;
+    list-style: none;
+     
+}
+
+.ditiyo ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.titiyo ul li{
+    text-decoration: none;
+    list-style: none; 
 }
