@@ -99,8 +99,8 @@ nav {
 
 .service p {
     text-align: center;
-    width: 40%;
-    margin-left: 30%;
+    width: 100%;
+    font-size: 80%;
 }
 
 .boxes {
@@ -240,7 +240,7 @@ nav {
 
 .under {
     background-color: #141623;
-    margin: 50px 50px;
+    margin: 100px 180px;
     height: 300px;
     border-radius: 20px;
 }
@@ -267,13 +267,13 @@ nav {
 }
 
 .buttons img {
-    margin-left: 260%;
+    margin-left: 190%;
     width: 60%;
 }
 
 .charset img {
     width: 60%;
-    margin-left: 230%;
+    margin-left: 160%;
 }
 
 
@@ -281,21 +281,67 @@ nav {
 
 .outing {
     display: flex;
-     
+
+}
+
+.update {
+    margin-left: 120px;
+}
+
+.input {
+    margin-left: 30%;
+    display: flex;
 }
 
 .prothom ul li {
     text-decoration: none;
     list-style: none;
-     
+    margin-left: 20px;
 }
 
-.ditiyo ul li{
+.prothom h4 {
+    margin-left: 40%;
+}
+
+.ditiyo h4 {
+    margin-left: 40%;
+}
+
+.titiyo h4 {
+    margin-left: 60px;
+}
+
+.ditiyo ul li {
     text-decoration: none;
     list-style: none;
+    margin-left: 25px;
 }
 
-.titiyo ul li{
+.titiyo ul li {
     text-decoration: none;
-    list-style: none; 
+    list-style: none;
+    margin-left: 25px;
+}
+
+/* last part */
+
+.last {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.copy {
+    margin-top: 15px;
+    color: #1a1b1b;
+    margin-left: 5%;
+}
+
+.last img {
+    margin-left: 20px;
+
+}
+
+.chobi {
+    margin-left: 60%;
+    margin-top: 10px;
 }
